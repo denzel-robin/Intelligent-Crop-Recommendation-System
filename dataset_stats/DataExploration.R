@@ -52,4 +52,4 @@ sapply(numeric_data, skewness, na.rm = TRUE)
 
 write.csv(stats, "summary_statistics.csv", row.names = TRUE)
 
-# End
+
