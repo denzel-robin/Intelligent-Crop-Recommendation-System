@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD060 -->
 # Intelligent-Crop-Recommendation-System
 
 Agriculture plays a vital role in ensuring food security and economic stability.
@@ -24,6 +26,41 @@ segmentation insights to support better agricultural planning.
 ### Phase 1
 
 #### Dataset summarization
+
+Adithya created a R code to summarize the dataset and find
+the measures of central tendency.
+
+##### Summary
+
+![Summary](dataset_stats/Summary.png)
+![Overview](dataset_stats/SizeDupliMissing.png)
+
+##### Measures of Central
+
+| Variable     | Mean              | SD                | Variance           | Min           | Max           |
+|-------------|-------------------|-------------------|--------------------|--------------|--------------|
+| N           | 54.0714812085483  | 34.2535381748454  | 1173.30487749559   | 0            | 140          |
+| P           | 51.6859992611747  | 30.2316939862073  | 913.955321275683   | 5            | 145          |
+| K           | 46.9764185703758  | 45.6709028167229  | 2085.83136409455   | 5            | 205          |
+| temperature | 25.4087930203114  | 4.65873065585056  | 21.7037713237618   | 8.825674745  | 43.67549305  |
+| humidity    | 73.3304967246463  | 20.411173048995   | 416.615985236021   | 14.25803981  | 99.98187601  |
+| ph          | 6.62921360878224  | 0.800135035040459 | 0.640216074299196  | 3.504752314  | 9.93509073   |
+| rainfall    | 131.077906220225  | 75.9322733660625  | 5765.71013853845   | 20.21126747  | 298.5601175  |
+
+##### Correlation Matrix
+
+![Correlation Matrix](dataset_stats/CorrMatrix.png)
+
+##### Box-Plots
+
+![Humidity](dataset_stats/HumiBox.png)
+![Rainfall](dataset_stats/RainfallBox.png)
+![PH](dataset_stats/phBox.png)
+![Temperature](dataset_stats/TempBox.png)
+
+##### Skewness
+
+![Skewness](dataset_stats/Skewness.png)
 
 #### Missing values & Duplicate handling
 
