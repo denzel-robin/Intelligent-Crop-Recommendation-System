@@ -53,9 +53,20 @@ the measures of central tendency.
 
 ##### Box-Plots
 
+###### Humidity
+
 ![Humidity](dataset_stats/HumiBox.png)
+
+###### Rainfall
+
 ![Rainfall](dataset_stats/RainfallBox.png)
+
+###### PH
+
 ![PH](dataset_stats/phBox.png)
+
+###### Temperature
+
 ![Temperature](dataset_stats/TempBox.png)
 
 ##### Skewness
