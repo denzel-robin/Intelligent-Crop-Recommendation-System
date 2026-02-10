@@ -10,8 +10,8 @@ farmers in making informed crop selection decisions.
 
 This project proposes the development of an
 **Intelligent Crop Recommendation System (ICRS)** using data mining techniques.
-The system will utilize the Crop Recommendation dataset from Kaggle
-`(https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset`,
+The system will utilize the Crop Recommendation dataset from
+[Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset),
 which contains information about soil nutrients
 (Nitrogen, Phosphorus, Potassium),
 temperature, humidity, pH, and rainfall. Data preprocessing techniques such as
@@ -35,7 +35,7 @@ the measures of central tendency.
 ![Summary](dataset_stats/Summary.png)
 ![Overview](dataset_stats/SizeDupliMissing.png)
 
-##### Measures of Central
+##### Measures of Central Tendency
 
 | Variable     | Mean              | SD                | Variance           | Min           | Max           |
 |-------------|-------------------|-------------------|--------------------|--------------|--------------|
